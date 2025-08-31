@@ -28,8 +28,8 @@ const ProjectDetails = ({
           {subDescription.map((subDesc, index) => (
             <p className="mb-3 font-normal text-neutral-400">{subDesc}</p>
           ))}
-          <div className="flex items-center justify-between mt-4">
-            <div className="flex gap-3">
+          <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between mt-4 gap-3">
+            <div className="flex gap-3 flex-wrap">
               {tags.map((tag) => (
                 <img
                   key={tag.id}
@@ -41,10 +41,14 @@ const ProjectDetails = ({
             </div>
             <a
               href={href}
-              className="inline-flex items-center gap-1 font-medium cursor-pointer hover-animation"
+              className="w-full sm:w-auto text-center py-2 px-4 rounded-md bg-navy-light hover:bg-navy transition-colors duration-200 flex items-center justify-center gap-1 font-medium cursor-pointer hover-animation"
             >
               View Project{" "}
-              <img src="assets/arrow-up.svg" className="size-4" href={href} />
+              <img
+                src="assets/arrow-up.svg"
+                className="size-4"
+                alt="View Project"
+              />
             </a>
           </div>
         </div>

@@ -28,13 +28,13 @@ const HeroText = () => {
             animate="visible"
             transition={{ delay: 1.2 }}
           >
-            A Developer <br /> Dedicated to Crafting
+            A Full-Stack Developer <br /> Dedicated to Crafting
           </motion.p>
           <motion.div
             variants={variants}
             initial="hidden"
             animate="visible"
-            transition={{ delay: 0.8 }}
+            transition={{ delay: 1.1 }}
           >
             <FlipWords
               words={words}

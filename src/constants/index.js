@@ -3,11 +3,11 @@ export const myProjects = [
     id: 1,
     title: "Learning Management System (LMS)",
     description:
-      "A Next.js e-learning platform with course management, secure payments, and admin controls.",
+      "A Next.js LMS with course management, secure payments, and admin controls.",
     subDescription: [
       "Built with Next.js 15, TypeScript, and PostgreSQL (Prisma ORM)",
       "Secure authentication with Better Auth and Stripe payments",
-      "Responsive UI with Tailwind CSS and Shadcn components",
+      "Responsive UI with Tailwind CSS and Shadcn",
       "Features: course management, progress tracking, and admin dashboard",
     ],
     href: "https://lms-azure-tau.vercel.app/",
